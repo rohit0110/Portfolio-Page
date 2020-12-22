@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(90deg,#9606ba,#4291db )
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgba(250, 97, 154,0.9);
+    font-family: "Ubuntu", sans-serif;
+}
+
+.logo{
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin-left: 30px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin-left: auto;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: black;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position:absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color:  rgba(250, 97, 154,0.9);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        transform: translateX(100%);
+    }
+    .burger{
+        display: block;
+        margin-left: auto;
+    }
+}
+
+.nav-active{
+    transform: translateX(-100%);
+}
+
