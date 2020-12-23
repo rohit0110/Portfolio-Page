@@ -23,7 +23,7 @@ nav{
 .logo{
     font-size: 24px;
     letter-spacing: 4px;
-    margin-left: 30px;
+    margin: 30px;
 }
 
 .nav-links{
@@ -47,11 +47,15 @@ nav{
     letter-spacing: 2px;
     font-weight: bold;
     text-decoration: none;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .nav-links li:hover{
-    background-color: #fff;
+    background-color: #020b69;
+}
+
+.nav-links li a:hover{
+    color: rgb(250, 97, 154);
 }
 
 .toggle-button{
@@ -73,14 +77,16 @@ nav{
 }
 
 @media (max-width: 800px){
-    .nav{
+    nav{
         flex-direction: column;
         align-items: flex-start;
     }
     .toggle-button{
         display: flex;
+        margin-top: 34px;
     }
     .nav-links{
+        background-color: black;
         display: none;
         width: 100%;
     }
@@ -93,6 +99,7 @@ nav{
         text-align: center;
     }
     .nav-links ul li a{
+        color: rgb(250, 97, 154);
         padding: .5rem 1rem
     }
 
