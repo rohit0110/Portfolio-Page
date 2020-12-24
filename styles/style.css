@@ -107,3 +107,14 @@ nav{
         display: flex;
     }
 }
+
+.typewriter{
+    display: flex;
+    overflow: hidden;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Poppins, sans-serif;
+    margin: 100px 30px;
+    letter-spacing: 0.1rem;
+}
+
