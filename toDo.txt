@@ -1,1 +1,7 @@
-Issues with navbar popping out
+make div full screen
+dropdown autoscrolls up
+add functionality to links
+add skills
+put logos instead of text
+make background of each page separate and better color schemes
+

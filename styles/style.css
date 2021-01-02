@@ -6,8 +6,17 @@
     box-sizing: border-box;
 }
 
+html{
+    height: 100%;
+}
+
 body{
-    background-image: linear-gradient(90deg,#9606ba,#4291db )
+    background-image: linear-gradient(90deg,#9606ba,#4291db );
+    height: 100%;
+}
+
+.full-height{
+    height: 100%;
 }
 
 nav{
@@ -115,6 +124,29 @@ nav{
     }
 }
 
+.skillPage{
+    border-bottom: 2px black solid;
+}
+
+.projectPage{
+    border-bottom: 2px black solid;
+}
+
+.homePage{
+    display: flex;
+    margin-top: 8vh;
+    border-bottom: 2px black solid;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.homePage h2{
+    font-size: 60px;
+    font-family: Ubuntu, sans-serif;
+    color: white;
+    margin-left: 30px;
+}
+
 .typewriter{
     display: flex;
     overflow: hidden;
@@ -126,12 +158,26 @@ nav{
 }
 
 .profile{
+    padding-top: 20px;
     display: flex;
+    flex-direction: column;
     font-size: 20px;
     font-weight: bolder;
     font-family: Poppins, sans-serif;
-    align-items: center;
     color: black;
+}
+
+.profileContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile h2{
+    color:white;
+    font-size: 60px;
+    font-family: Ubuntu,sans-serif;
+    margin-left: 30px;
 }
 /* add animation */
 .profile ul li a{
@@ -158,16 +204,36 @@ nav{
 
 @media (max-width: 800px)
 {
+    .homePage{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homePage h2{
+        margin-left: 0px;
+    }
+
+    .typewriter{
+        text-align: center;
+    }
     .profile{
         flex-direction: column;
         text-align: center;
+        align-items: center;
+    }
+
+    .profile h2{
+        margin-left: 0px;
     }
 
     .profilepicdiv{
-
         margin-top: 0px;
         height: 250px;
         width:250px;
+    }
+
+    .profileContent{
+        flex-direction: column;
     }
 
     #profilepic{
