@@ -1,6 +1,5 @@
-make div full screen
-dropdown autoscrolls up
-add functionality to links
+P-make nav scrolling not hide the heading
+P-nav autoscrolls up
 add skills
 put logos instead of text
 make background of each page separate and better color schemes
