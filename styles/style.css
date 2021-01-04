@@ -125,6 +125,97 @@ nav{
     height: 600px;
 }
 
+.skillContent{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutSkills{
+    margin-top: 40px;
+}
+
+.progressBars{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 30px;
+    max-width: 850px;
+    min-width: 800px;
+    list-style: none;
+    flex-direction: column;
+    border-width: 3px;
+    border-style: solid;
+    border-image-source: linear-gradient(45deg,skyblue,violet);
+    border-image-slice: 1;
+}
+
+.progressBars li{
+    margin: 20px 0px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.progress{
+    background: darkgray;
+    display:block;
+    height: 8px;
+    width: 750px;
+    border: 3px black solid;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 10px black;
+}
+
+.progress span{
+    height: 8px;
+    float: left;
+    background :#169ef2;
+}
+
+.htmlprogress{
+    width: 70%;
+    animation: htmlbar 2s;
+}
+
+.cssprogress{
+    width: 45%;
+    animation: cssbar 2s;
+}
+
+.jsprogress{
+    width: 20%;
+    animation: jsbar 2s;
+}
+
+@keyframes htmlbar{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes cssbar{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+
+@keyframes jsbar{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+}
+
 .projectPage{
     border-bottom: 2px black solid;
     height: 800px;

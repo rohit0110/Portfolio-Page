@@ -1,6 +1,10 @@
-P-make nav scrolling not hide the heading
+P-make nav scrolling not hide the heading/Dropdown
 P-nav autoscrolls up
-add skills
-put logos instead of text
-make background of each page separate and better color schemes
+P- fix below 800px for skill bars
 
+
+linear gradient border for each page with dark theme
+Better contact portion
+pie graphs for skills to add more skills 
+logos of sills i have
+make animation repeat everytime i press skills
