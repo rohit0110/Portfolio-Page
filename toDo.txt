@@ -1,10 +1,9 @@
 P-make nav scrolling not hide the heading/Dropdown
-P-nav autoscrolls up
-P- fix below 800px for skill bars
+P- fix below 800px for skill bars 
+A-can control with js how much it scrolls(js)
 
-
-linear gradient border for each page with dark theme
-Better contact portion
-pie graphs for skills to add more skills 
-logos of sills i have
-make animation repeat everytime i press skills
+Make better skill section than just bar graphs
+Better contact portion (css)
+pie graphs for skills to add more skills (js)
+logos of sills i have (css)
+make animation repeat everytime i press skills(js probably)
