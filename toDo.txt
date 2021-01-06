@@ -1,5 +1,7 @@
 P-make nav scrolling not hide the heading/Dropdown
-P- fix below 800px for skill bars 
+P- fix below 800px for skill bars
+P-broken transform 
+
 A-can control with js how much it scrolls(js)
 
 Make better skill section than just bar graphs

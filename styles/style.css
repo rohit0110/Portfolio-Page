@@ -123,14 +123,15 @@ nav{
     border-width:10px;
     border-style: solid;
     border-image: linear-gradient(90deg,#008383,#011930) 1;
-    height: 600px;
+    height: auto;
+    padding-bottom:50px;
 }
 
 .skillContent{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .aboutSkills{
@@ -225,7 +226,44 @@ nav{
     border-width:10px;
     border-style: solid;
     border-image: linear-gradient(90deg,#008383,#03568d) 1;
-    height: 800px;
+}
+
+#projectPage{
+    height:auto;
+    padding-bottom: 50px;
+}
+
+#skillPage{
+    height:auto;
+    padding-bottom: 50px;
+}
+
+.projectDiv{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.projectDiv img:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px white;
+}
+
+.projectDiv img{
+    display: block;
+    width: 350px;
+    height: 200px;
+    border: 2px #09dba7 solid;
+    border-radius: 15px;
+}
+
+.projectstuff{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 30px;
 }
 
 .homePage{
