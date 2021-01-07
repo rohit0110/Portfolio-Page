@@ -4,8 +4,5 @@ P-broken transform
 
 A-can control with js how much it scrolls(js)
 
-Make better skill section than just bar graphs
-Better contact portion (css)
 pie graphs for skills to add more skills (js)
-logos of sills i have (css)
 make animation repeat everytime i press skills(js probably)

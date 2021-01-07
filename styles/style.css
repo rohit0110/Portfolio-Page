@@ -137,6 +137,16 @@ nav{
 .aboutSkills{
     margin-top: 40px;
     display: flex;
+    flex-direction: column;
+}
+
+.iconpart{
+    text-align: center;
+    font-size: 40px;
+}
+
+.iconpart i:hover{
+    color: #09dba7;
 }
 
 .progressBars{
@@ -307,7 +317,7 @@ nav{
     font-weight: bolder;
     font-family: Poppins, sans-serif;
     color: #c5c9c9;
-    height: 600px;
+    height: auto;
     background-color: #04123d;
     border-top-style: none;
     border-width:10px;
@@ -317,8 +327,16 @@ nav{
 
 .profileContent{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    align-self: center;
+    background-color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    min-height: 850px;
+    justify-content: space-between;
+    border: 2px white solid;
+    border-radius: 30px;
 }
 
 .profile h2{
@@ -331,6 +349,7 @@ nav{
 .profile ul li a{
     text-decoration: none;
     color: #c5c9c9;
+    font-size: 30px;
 }
 
 .profile ul li a:hover{
@@ -338,16 +357,28 @@ nav{
 }
 
 #details{
-    padding: 30px;
+    display:flex;
+    flex:row wrap;
+    padding: 50px;
     list-style: none;
+    gap: 30px;
 }
 
 #profilepic{
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    display:flex;
+    max-width: 600px;
+    min-height: 400px;
+    height: auto;
+    width: auto;
     border: 2px solid #c5c9c9;
     margin: 50px 30px;
+}
+
+.paraAboutMe{
+    display: flex;
+    text-align: center;
+    width:auto;
+    max-width:400px;
 }
 
 @media (max-width: 800px)
@@ -376,17 +407,25 @@ nav{
 
     .profilepicdiv{
         margin-top: 0px;
-        height: 250px;
-        width:250px;
+        height: auto;
+        width:auto;
     }
 
     .profileContent{
         flex-direction: column;
     }
 
-    #profilepic{
+    /* #profilepic{
         position: relative;
         padding-top: 0px;
+    } */
+
+    #profilepic{
+        width: auto;
+        height:auto;
+        max-height:300px;
+        max-width: 300px;
+        border-radius:50%;
     }
 }
 
