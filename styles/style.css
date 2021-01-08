@@ -98,7 +98,13 @@ nav{
         background-color: #454747;
         display: none;
         width: 100%;
+        border-bottom: 4px solid white;
     }
+
+    .nav-links ul li:hover{
+        background-color: #142050;
+    }
+
     .nav-links ul{
         width: 100%;
         flex-direction: column;
@@ -305,6 +311,7 @@ nav{
     font-weight: bold;
     font-family: Poppins, sans-serif;
     margin: 30px;
+    margin-top: 130px;
     letter-spacing: 0.1rem;
     color: #c5c9c9;
 }
@@ -366,12 +373,12 @@ nav{
 
 #profilepic{
     display:flex;
-    max-width: 600px;
-    min-height: 400px;
-    height: auto;
-    width: auto;
+    width:400px;
+    height: 400px;  
+    object-fit: cover;
     border: 2px solid #c5c9c9;
     margin: 50px 30px;
+    border-radius: 50%;
 }
 
 .paraAboutMe{
@@ -413,19 +420,6 @@ nav{
 
     .profileContent{
         flex-direction: column;
-    }
-
-    /* #profilepic{
-        position: relative;
-        padding-top: 0px;
-    } */
-
-    #profilepic{
-        width: auto;
-        height:auto;
-        max-height:300px;
-        max-width: 300px;
-        border-radius:50%;
     }
 }
 

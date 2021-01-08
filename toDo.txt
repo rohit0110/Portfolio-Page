@@ -6,3 +6,4 @@ A-can control with js how much it scrolls(js)
 
 pie graphs for skills to add more skills (js)
 make animation repeat everytime i press skills(js probably)
+fix for skills bar graph
